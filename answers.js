@@ -3,8 +3,11 @@
 // HTML and CSS Comfort Level: 4
 
 // Reps
-for (let i = 1; i < 21; i++) {
-  console.log(i);
-}
+// for (let i = 1; i < 21; i++) {
+//   console.log(i);
+// }
 
-
+// Get Even
+// for (let i = 0; i < 202; i += 2) {
+//     console.log(i)
+// }
