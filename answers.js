@@ -67,11 +67,74 @@
 // For this exercise I researched stack overflow for the answer I was
 // looking for. I found this method and decided to decipher and try it out.
 // In my solution, I took my original array, and also created a empty array
-// of yellTurtle. (Had to refresh on for of loops) I designated name as the 
-// value of each item in the original array. I created a new variable of 
-// upper that invokes the toUpperCase(). By doing so, I took the items from
-// ninjaTurtle and converted them to uppercase and placed them inside of the
-// new array yellTurtle. (Needed a place for my thoughts and hope I was on the 
+// of yellTurtle. (Had to refresh on for of loops) I designated name as the
+// value of each item in the original array. I created a new variable of
+// upper that invokes the toUpperCase function. By doing so, I took the items
+// from ninjaTurtle and converted them to uppercase and placed them inside of the
+// new array yellTurtle. (Needed a place for my thoughts and hope I was on the
 // correct thought process for this solution)
+
+// =======================================================================
+
+// const favMovies = [
+//   "Jaws",
+//   "The Fellowship of the Ring",
+//   "Howl's Moving Castle",
+//   "Django Unchained",
+//   "Cloud Atlas",
+//   "The Usual Suspects",
+//   "Toy Story",
+//   "Conan the Barbarian",
+//   "Titanic",
+//   "Harry Potter",
+//   "Fried Green Tomatoes",
+//   "Volver",
+//   "Oculus",
+//   "Seven",
+//   "Black Panther",
+//   "Harry Potter",
+//   "Imitation of Life",
+//   "Snatch",
+//   "Fast and Furious",
+// ];
+
+// console.log(favMovies[8]);
+
+// // 1.
+// favMovies.sort();
+// console.log(favMovies)
+
+// // 2.
+// favMovies.pop();
+// console.log(favMovies);
+
+// // 3.
+// favMovies.push('Guardians of the Galaxy');
+// console.log(favMovies);
+
+// // 4.
+// favMovies.reverse();
+// console.log(favMovies);
+
+// // 5.
+// favMovies.shift();
+// console.log(favMovies);
+
+// // 6.
+// favMovies.unshift('Scott Pilgrim', 'Monty Python', 'The Adam Project')
+// console.log(favMovies);
+
+// // 7. 
+// favMovies.splice(3, 1, 'Avatar');
+// console.log(favMovies);
+
+// // 8.
+// let someMovies = favMovies.slice(11,19);
+// console.log(someMovies);
+
+// console.log(favMovies[18])
+
+// When trying to console log the index of 'Fast and the Furious', after removing the object 
+// with pop, I used the index where it would have been and it logged 'undefined'.
 
 // =======================================================================
