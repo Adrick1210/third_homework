@@ -64,16 +64,6 @@
 // }
 // console.log(yellTurtle);
 
-// For this exercise I researched stack overflow for the answer I was
-// looking for. I found this method and decided to decipher and try it out.
-// In my solution, I took my original array, and also created a empty array
-// of yellTurtle. (Had to refresh on for of loops) I designated name as the
-// value of each item in the original array. I created a new variable of
-// upper that invokes the toUpperCase function. By doing so, I took the items
-// from ninjaTurtle and converted them to uppercase and placed them inside of the
-// new array yellTurtle. (Needed a place for my thoughts and hope I was on the
-// correct thought process for this solution)
-
 // =======================================================================
 
 // Methods Revisited
@@ -171,7 +161,7 @@
 
 //  // I initiate the control panel for my for loop
 // for (let i = 0; i < 21; i++) {
-//     // I create a conditional of if even
+//     // I create a conditional of even
 //   if (i % 2 === 0) {
 //      // I define a variable that takes items from the array and randomizes them
 //     const randomTalk = Math.floor(Math.random() * kittyTalk.length);
@@ -182,5 +172,37 @@
 //     console.log("love me, Pet me! HSSSSSS!");
 //   }
 // }
+
+// =======================================================================
+
+// Find the Median
+
+// const nums = [
+//   14, 11, 16, 15, 13, 16, 15, 17, 19, 11, 12, 14, 19, 11, 15, 17, 11, 18, 12,
+//   17, 12, 71, 18, 15, 12,
+// ];
+
+// // I sort the array into numerical order
+// nums.sort();
+
+// // I define a variable that will display the median when I console log
+// let median;
+
+// // I create a conditional to check for odd or even
+// if (nums.length % 2 !== 0) {
+//   // In the case of odd
+//   // I define a variable that targets the middle object in the array
+//   let middleValue = Math.floor(nums.length / 2);
+//   // I set that the middleValue to the median variable
+//   median = nums[middleValue];
+//   // In the case of even
+// } else {
+//   // to find the middleValue
+//   let middleValue = Math.floor(nums.length / 2);
+//   // to find the median
+//   median = (nums[middleValue] + nums[middleValue - 1]) / 2;
+// }
+// // I log the median value of the array in the console log
+// console.log(median);
 
 // =======================================================================
