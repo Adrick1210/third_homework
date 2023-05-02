@@ -76,6 +76,8 @@
 
 // =======================================================================
 
+// Methods Revisited
+
 // const favMovies = [
 //   "Jaws",
 //   "The Fellowship of the Ring",
@@ -124,7 +126,7 @@
 // favMovies.unshift('Scott Pilgrim', 'Monty Python', 'The Adam Project')
 // console.log(favMovies);
 
-// // 7. 
+// // 7.
 // favMovies.splice(3, 1, 'Avatar');
 // console.log(favMovies);
 
@@ -134,7 +136,27 @@
 
 // console.log(favMovies[18])
 
-// When trying to console log the index of 'Fast and the Furious', after removing the object 
+// When trying to console log the index of 'Fast and the Furious', after removing the object
 // with pop, I used the index where it would have been and it logged 'undefined'.
 
 // =======================================================================
+
+// Where is Waldo?
+
+// const whereIsWaldo = [
+//   ["Timmy", "Frank"],
+//   "Eggbert",
+//   ["Lucinda", "Jacc", "Neff", "Snoop"],
+//   ["Petunia", ["Baked Goods", "Waldo"]],
+// ];
+
+// whereIsWaldo.splice(1, 1, " ");
+// console.log(whereIsWaldo);
+
+// whereIsWaldo[2].splice(2, 1, "No One");
+// console.log(whereIsWaldo)
+
+// console.log(whereIsWaldo[3][1][1]);
+
+// =======================================================================
+
