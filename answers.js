@@ -162,23 +162,23 @@
 
 // Excited Kitten
 
-// I defined my array of things for the cat to say
+//  // I defined my array of things for the cat to say
 // const kittyTalk = [
 //   "...human, why you taking pictures of me?..",
 //   "...the catnip made me do it...",
 //   "...why does the red dot always get away...",
 // ];
 
-//  I initiate the control panel for my for loop
+//  // I initiate the control panel for my for loop
 // for (let i = 0; i < 21; i++) {
-//      I define a conditional of if even
+//     // I create a conditional of if even
 //   if (i % 2 === 0) {
-//        I define a variable that takes items from the array and randomizes them
+//      // I define a variable that takes items from the array and randomizes them
 //     const randomTalk = Math.floor(Math.random() * kittyTalk.length);
-//        I print out the array items randomly per even number
+//      // I print out the array items randomly per even number
 //     console.log(kittyTalk[randomTalk]);
 //   } else {
-//        anything else, I log the hard coded message
+//      // anything else, I log the hard coded message
 //     console.log("love me, Pet me! HSSSSSS!");
 //   }
 // }
