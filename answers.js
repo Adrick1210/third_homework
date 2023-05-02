@@ -206,3 +206,65 @@
 // console.log(median);
 
 // =======================================================================
+
+// Alien Attire
+
+const kristynsCloset = [
+    "left shoe",
+    "cowboy boots",
+    "right sock",
+    "GA hoodie",
+    "green pants",
+    "yellow knit hat",
+    "marshmallow peeps"
+  ];
+  
+  // Thom's closet is more complicated. Check out this nested data structure!!
+  const thomsCloset = [
+    [
+      // These are Thom's shirts
+      "grey button-up",
+      "dark grey button-up",
+      "light blue button-up",
+      "blue button-up",
+    ],[
+      // These are Thom's pants
+      "grey jeans",
+      "jeans",
+      "PJs"
+    ],[
+      // Thom's accessories
+      "wool mittens",
+      "wool scarf",
+      "raybans"
+    ]
+  ];
+
+//   let kristynsShoe = kristynsCloset[0];
+//   kristynsCloset.shift();
+  
+//   thomsCloset[2].push(kristynsShoe)
+//   console.log(kristynsCloset)
+//   console.log(thomsCloset)
+
+// Dress Up
+
+//combine the arrays into a single container
+const outfits = [...kristynsCloset, ...thomsCloset[1]];
+
+// define a empty array where out outfit choices will be stored
+const randomOutfit = [];
+
+// iterate over every item in the new outfits array
+for (let i = 0; i < 3; i++) {
+    // I create a random index for each item in the array
+    const outfitItems = Math.floor(Math.random() * outfits.length);
+    // I now push the random items to the new array to make my list of outfit outcomes
+    randomOutfit.push(outfits[outfitItems]);
+}
+
+// I create a variable that prevents duplicate prints of items
+const noDuplicates = randomOutfit.filter((item, index) => randomOutfit.indexOf(item) === index);
+// I console log my three items
+console.log(noDuplicates)
+
